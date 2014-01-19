@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3a379f-1c8e-4590-83d3-fc16ab12f59a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/billschofield/football/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/org/billschofield/football/PlayerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/billschofield/football/Main.java" afterPath="$PROJECT_DIR$/src/org/billschofield/football/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/billschofield/football/PlayerLister.java" afterPath="$PROJECT_DIR$/src/org/billschofield/football/PlayerLister.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/billschofield/football/PlayerListerTest.java" afterPath="$PROJECT_DIR$/test/org/billschofield/football/PlayerListerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/billschofield/football/PlayerTest.java" afterPath="$PROJECT_DIR$/test/org/billschofield/football/PlayerTest.java" />
     </list>
     <ignored path="SundayFootball.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +69,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/billschofield/football/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+            <state line="10" column="59" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="504">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#199#207#0" expanded="true" />
@@ -86,7 +81,7 @@
       <file leaf-file-name="PlayerLister.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/billschofield/football/PlayerLister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="624">
+            <state line="15" column="16" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="624">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,7 +92,7 @@
       <file leaf-file-name="PlayerListerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/billschofield/football/PlayerListerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="7" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="1128">
+            <state line="31" column="23" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1128">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,22 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/billschofield/football/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="143" selection-end="143" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="624">
+            <state line="19" column="64" selection-start="536" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="672">
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PlayerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/org/billschofield/football/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+            <state line="30" column="9" selection-start="745" selection-end="923" vertical-scroll-proportion="0.42307693" vertical-offset="456" max-vertical-offset="1080">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,9 +141,9 @@
         <option value="$PROJECT_DIR$/src/org/billschofield/football/PlayerListerTest.java" />
         <option value="$PROJECT_DIR$/test/org/billschofield/football/PlayerListerTest.java" />
         <option value="$PROJECT_DIR$/src/org/billschofield/football/PlayerLister.java" />
-        <option value="$PROJECT_DIR$/test/org/billschofield/football/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/org/billschofield/football/Player.java" />
         <option value="$PROJECT_DIR$/src/org/billschofield/football/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/billschofield/football/Player.java" />
+        <option value="$PROJECT_DIR$/test/org/billschofield/football/PlayerTest.java" />
       </list>
     </option>
   </component>
@@ -278,7 +272,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.PlayerTest">
     <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -301,20 +295,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PlayerListerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.billschofield.football.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="All in SundayFootball" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SundayFootball" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.billschofield.football" />
-      <option name="MAIN_CLASS_NAME" value="org.billschofield.football.PlayerListerTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -329,7 +318,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PlayerTest.shouldReturnName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PlayerTest.infoShouldIncludeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.billschofield.football.*" />
@@ -341,7 +330,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.billschofield.football" />
       <option name="MAIN_CLASS_NAME" value="org.billschofield.football.PlayerTest" />
-      <option name="METHOD_NAME" value="shouldReturnName" />
+      <option name="METHOD_NAME" value="infoShouldIncludeNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -385,15 +374,20 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="All in SundayFootball" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="PlayerTest.infoShouldIncludeAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.billschofield.football.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="SundayFootball" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="org.billschofield.football" />
+      <option name="MAIN_CLASS_NAME" value="org.billschofield.football.PlayerTest" />
+      <option name="METHOD_NAME" value="infoShouldIncludeAge" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -545,18 +539,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PlayerListerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PlayerTest.shouldReturnName" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in SundayFootball" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PlayerTest.infoShouldIncludeNumber" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.PlayerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in SundayFootball" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerTest.infoShouldIncludeAge" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in SundayFootball" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PlayerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PlayerTest.shouldReturnName" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerListerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PlayerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PlayerTest.infoShouldIncludeAge" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in SundayFootball" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerTest.infoShouldIncludeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -584,17 +578,25 @@
       <created>1390150621131</created>
       <updated>1390150621131</updated>
       <workItem from="1390150622394" duration="3091000" />
-      <workItem from="1390153724115" duration="2698000" />
+      <workItem from="1390153724115" duration="5856000" />
     </task>
     <task id="LOCAL-00001" summary="Prints zero or one player names.">
       <created>1390154420954</created>
       <updated>1390154420954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Player class owns the concept of player name.">
+      <created>1390156451357</created>
+      <updated>1390156451357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Players have name, team, number, and age.">
+      <created>1390162830255</created>
+      <updated>1390162830255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5789000" />
+    <option name="totallyTimeSpent" value="8947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="22" width="1203" height="878" extended-state="6" />
@@ -605,6 +607,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -624,7 +627,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -642,7 +644,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Prints zero or one player names." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prints zero or one player names." />
+    <MESSAGE value="Player class owns the concept of player name." />
+    <MESSAGE value="Players have name, team, number, and age." />
+    <option name="LAST_COMMIT_MESSAGE" value="Players have name, team, number, and age." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -689,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/billschofield/football/PlayerLister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="624">
+        <state line="15" column="16" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="624">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -698,16 +702,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/billschofield/football/PlayerListerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="1128">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/billschofield/football/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+        <state line="31" column="23" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="1128">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -716,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/billschofield/football/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+        <state line="10" column="59" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="504">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#199#207#0" expanded="true" />
@@ -726,10 +721,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/billschofield/football/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="143" selection-end="143" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="624">
+        <state line="19" column="64" selection-start="536" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="672">
           <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/billschofield/football/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="745" selection-end="923" vertical-scroll-proportion="0.42307693" vertical-offset="456" max-vertical-offset="1080">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -800,7 +803,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.mockito:mockito-all:1.9.5</last-edited>
+          <last-edited>com.google.guava:guava:15.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

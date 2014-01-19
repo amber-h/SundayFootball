@@ -14,7 +14,7 @@ public class PlayerLister {
 
     public void list() {
         for (Player player : players) {
-            printStream.println(player.getName());
+            printStream.println(player.info());
         }
     }
 }

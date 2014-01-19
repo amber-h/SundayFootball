@@ -12,7 +12,7 @@ import static org.mockito.Mockito.*;
 
 public class PlayerListerTest {
     private PrintStream printStream;
-    private final String playerName = "PlayerName";
+    private final String playerInfo = "PlayerInfo";
     private List<Player> players;
     private PlayerLister playerLister;
     private Player player;
@@ -23,14 +23,14 @@ public class PlayerListerTest {
         players = new ArrayList<Player>();
         playerLister = new PlayerLister(players, printStream);
         player = mock(Player.class);
-        when(player.getName()).thenReturn(playerName);
+        when(player.info()).thenReturn(playerInfo);
     }
 
     @Test
     public void shouldPrintANameWhenThereIsOnePlayer(){
         players.add(player);
         playerLister.list();
-        verify(printStream).println(playerName);
+        verify(printStream).println(playerInfo);
     }
 
     @Test
