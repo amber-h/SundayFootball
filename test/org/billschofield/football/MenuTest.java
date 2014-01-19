@@ -30,7 +30,11 @@ public class MenuTest {
     public void shouldPrintListPlayersOption() throws IOException {
         menu.listOptions();
         verify(printStream).println("1) List Players");
+        verify(printStream).println("2) Find Player by Name");
+
     }
+
+
 
     @Test
     public void shouldCallListOnPlayerListerWhenUserEntersOne() throws IOException {
