@@ -4,38 +4,35 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.*;
 
 public class PlayerListerTest {
     private PrintStream printStream;
+    private final String playerName = "PlayerName";
+    private List<String> players;
+    private PlayerLister playerLister;
 
     @Before
     public void setUp() throws Exception {
         printStream = mock(PrintStream.class);
+        players = new ArrayList<String>();
+        playerLister = new PlayerLister(players, printStream);
     }
 
     @Test
     public void shouldPrintANameWhenThereIsOnePlayer(){
-        String playerName = "PlayerName";
-
-        PrintStream printStream = mock(PrintStream.class);
-        PlayerLister playerLister = new PlayerLister(playerName, printStream);
-
+        players.add(playerName);
         playerLister.list();
-
         verify(printStream).println(playerName);
     }
 
     @Test
     public void shouldNotPrintAnythingWhenThereAreNoPlayers(){
-        PlayerLister playerLister = playerLister("");
         playerLister.list();
         verify(printStream, times(0)).println(anyString());
-    }
-
-    private PlayerLister playerLister(String playerName) {
-        return new PlayerLister(playerName, printStream);
     }
 }
