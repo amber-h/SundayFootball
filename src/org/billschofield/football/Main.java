@@ -10,16 +10,16 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        PrintStream printStream = System.out;
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         List<Player> players = new ArrayList<Player>();
+        PlayerLister playerLister = new PlayerLister(players, printStream);
         players.add(new Player("Bill", "teamName", "11", "24"));
         players.add(new Player("Pat", "teamName", "12", "25"));
-        PrintStream printStream = System.out;
 
-        PlayerLister playerLister = new PlayerLister(players, printStream);
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         Menu menu = new Menu(playerLister, printStream, bufferedReader);
 
-        menu.run();
-    }
 
+        new FootballLeagueManager(menu).run();
+    }
 }
