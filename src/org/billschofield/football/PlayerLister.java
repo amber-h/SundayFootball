@@ -4,17 +4,17 @@ import java.io.PrintStream;
 import java.util.List;
 
 public class PlayerLister {
-    private List<String> players;
-    private java.io.PrintStream printStream;
+    private List<Player> players;
+    private PrintStream printStream;
 
-    public PlayerLister(List<String> players, PrintStream printStream) {
+    public PlayerLister(List<Player> players, PrintStream printStream) {
         this.players = players;
         this.printStream = printStream;
     }
 
     public void list() {
-        for (String player : players) {
-            printStream.println(player);
+        for (Player player : players) {
+            printStream.println(player.getName());
         }
     }
 }

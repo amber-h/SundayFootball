@@ -13,19 +13,22 @@ import static org.mockito.Mockito.*;
 public class PlayerListerTest {
     private PrintStream printStream;
     private final String playerName = "PlayerName";
-    private List<String> players;
+    private List<Player> players;
     private PlayerLister playerLister;
+    private Player player;
 
     @Before
     public void setUp() throws Exception {
         printStream = mock(PrintStream.class);
-        players = new ArrayList<String>();
+        players = new ArrayList<Player>();
         playerLister = new PlayerLister(players, printStream);
+        player = mock(Player.class);
+        when(player.getName()).thenReturn(playerName);
     }
 
     @Test
     public void shouldPrintANameWhenThereIsOnePlayer(){
-        players.add(playerName);
+        players.add(player);
         playerLister.list();
         verify(printStream).println(playerName);
     }

@@ -6,8 +6,9 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        List<String> players = new ArrayList<String>();
-        players.add("PlayerName");
+        List<Player> players = new ArrayList<Player>();
+        players.add(new Player("Bill"));
+        players.add(new Player("Pat"));
         new PlayerLister(players, System.out).list();
     }
 
