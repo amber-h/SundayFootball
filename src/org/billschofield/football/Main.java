@@ -14,10 +14,11 @@ public class Main {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         List<Player> players = new ArrayList<Player>();
         PlayerLister playerLister = new PlayerLister(players, printStream);
+        PlayerFinder playerFinder = new PlayerFinder(printStream);
         players.add(new Player("Bill", "teamName", "11", "24"));
         players.add(new Player("Pat", "teamName", "12", "25"));
 
-        Menu menu = new Menu(playerLister, printStream, bufferedReader);
+        Menu menu = new Menu(playerLister, playerFinder, printStream, bufferedReader);
 
 
         new FootballLeagueManager(menu).run();

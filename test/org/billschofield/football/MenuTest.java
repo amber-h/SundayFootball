@@ -17,13 +17,16 @@ public class MenuTest {
     private Menu menu;
     private PlayerLister playerLister;
     private BufferedReader bufferedReader;
+    private PlayerFinder playerFinder;
 
     @Before
     public void setUp() throws Exception {
         printStream = mock(PrintStream.class);
         playerLister = mock(PlayerLister.class);
         bufferedReader = mock(BufferedReader.class);
-        menu = new Menu(playerLister, printStream, bufferedReader);
+        playerFinder = mock(PlayerFinder.class);
+
+        menu = new Menu(playerLister, playerFinder, printStream, bufferedReader);
     }
 
     @Test
@@ -34,12 +37,27 @@ public class MenuTest {
 
     }
 
-
-
     @Test
     public void shouldCallListOnPlayerListerWhenUserEntersOne() throws IOException {
         when(bufferedReader.readLine()).thenReturn("1");
         menu.handleInput();
         verify(playerLister).list();
     }
+
+    @Test
+    public void shouldPromptUserToEnterNameWhenUserEntersTwo() throws IOException {
+        when(bufferedReader.readLine()).thenReturn("2");
+        menu.handleInput();
+        verify(printStream).println("Please enter player name:");
+    }
+
+    @Test
+    public void shouldCallFindPlayerOnFinderWhenUserEntersTwo() throws IOException {
+        when(bufferedReader.readLine()).thenReturn("2");
+        menu.handleInput();
+
+        verify(printStream).println("Please enter player name:");
+        verify(playerFinder).findPlayer();
+    }
+
 }

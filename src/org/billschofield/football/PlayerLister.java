@@ -17,4 +17,6 @@ public class PlayerLister {
             printStream.println(player.info());
         }
     }
+
+
 }
